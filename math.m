@@ -99,7 +99,7 @@ for k = 1:length(RastiMedziai) % Einame pro visus rastus medzius
         Medis{j} = MedisK(j, :);
     end
     figure;
-    plotGraphVU1(V, Medis, 0, 0, [], 0, 10, 1, 'b');
+    plotGraphVU1(V, Medis, 0, 0, [], 0, 10, 1, 'b'); 
 end
 
 % Trukmes matavimo pabaiga
